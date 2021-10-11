@@ -15,14 +15,15 @@ footer {
     max-width: 760px;
 }
 
-header, footer,
+header,
+footer,
 h1 {
     background-color: rgb(29, 24, 97);
     color: white;
     text-align: left;
     padding: 2rem;
     border-radius: 10px 10px 10px 10px;
-    
+
 }
 
 section {
@@ -36,15 +37,14 @@ section {
     box-shadow: 3px 3px 3px #03045E;
 }
 
-
-
-footer{
+footer {
     margin-top: 15rem;
     padding-left: 15rem;
     padding-right: 15rem;
     text-align: center;
     font-family: "Raleway";
 }
+
 p {
     color: yellow;
 }

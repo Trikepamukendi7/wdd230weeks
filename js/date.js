@@ -7,7 +7,7 @@ let daynames = [
     "Friday",
     "Saturday"
 ];
-let months = [
+let month = [
     "January",
     "February",
     "March",
@@ -24,8 +24,8 @@ let months = [
 ];
 let d = new Date();
 let dayname = daynames[d.getDay()];
-let monthName = months[d.getMonth()];
-let fulldate = dayname + "," + monthNames + " " + d.getDate() + "," + d.getFullYear();
+let monthName = month[d.getMonth()];
+let fulldate = dayname + "," + monthName + " " + d.getDate() + "," + d.getFullYear();
 
 document.getElementById("currentdate").textContent = fulldate;
 
@@ -37,6 +37,7 @@ try {
         year: "numeric"
     };
     document.getElementById("currentdate2").textContent = new Date().toLocaleDateString("en-Us", option);
-} catch (e) {
+} catch (e)
+ {
     alert("error with code or your browser does not support Locale");
-
+}
