@@ -1,51 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
 
-<head>
+  <head>
+    
+
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description"
-        content="Assignment portal for Excellent Mukendi in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Assignment portal for John Sullivan in WDD 230, BYU-I">
     <title>My portal home page</title>
-    <link href="css/main.css" rel="stylesheet">
-    
-    
-</head>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/normalize.css">
+  </head>
 
 <body>
-
-    <head>
-        <section>
-            <img src="images/excellent.jpg" alt="Excellent Mukendi">
-        </section>
-
-
+      <header>
+        <img src="images/excellent.jpg" alt="portalpicture">
         <h1> Patrick K. Mukendi </h1>
-        <h2>WDD 230: Assignment Portal
-            <hr>
-        </h2>
-
-
-    </head>
-
-    <nav>
-        <ul>
-            <li>lesson 02 <a href="Assignmentlink/">Assignment link</a></li>
-            <li>lesson 03 <a href="Assignmentlink/">Assignment link</a></li>
-            <li>lesson 04 <a href="Assignmentlink/">Assignment link</a></li>
-        </ul>
-    </nav>
+      </header>
+    
+  <main>
+    <section>
+    <h2>WDD 230 - Assignment Portal</h2>
+    <ul>
+        <li>lesson 02 <a href="Assignmentlink/">Assignment link</a></li>
+        <li>lesson 03 <a href="Assignmentlink/">Assignment link</a></li>
+        <li>lesson 04 <a href="Assignmentlink/">Assignment link</a></li>
+        
+    </ul>
+      </section>
+  </main>
 
     <footer>
-        &copy; 2021 | Patrick K. Mukendi| Bucharest | BYU Online Leaning
-        <hr>
-        <h6>Last Updated:</h6> <span id="currentdate"></span>
-        <span id="currentdate"></span>
-        
-    </footer>
+      <div class="footer">
+        <p> 
+          &copy;<span id="copyrightyear"></span> 2021 | Patrick K. Mukendi| Bucharest | BYU Online Leaning <a id="footer" href="https://www.byui.edu/"> BYU-I Online
+            Learning </a> <br><span id="last-updated">Last Updated: <span id="currentdate"></span>
+            <span id="currentdate"></span>
+        </p>
+      </div> 
+
+    </footer>   
+
     <script src="js/date.js"></script>
 
-
-</body>
-
-</html>
+  </body>
+</html>  

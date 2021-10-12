@@ -1,0 +1,61 @@
+body {
+    font-size: 18px; 
+    line-height: 1.5; 
+}
+header, main, footer {
+    margin: 1.25rem auto;
+    max-width: 750px;
+}
+header, footer {
+    background-color: rgb(29, 24, 97);
+    color:white; 
+    text-align: center; 
+}
+
+header {
+    padding: 1.0rem;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+footer {
+    padding: 0.8rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin: 15rem;
+    
+}
+
+h2 {
+    font-size: 1rem;
+    border-bottom: 1px solid;
+    margin-bottom: .5rem;
+}
+   
+img { 
+    height: auto;
+    width: 175px; 
+    box-shadow: 2px 2px 2px #09090a;
+    border: 1px solid #0077B6;
+    padding: 10px;
+    box-shadow: 3px 3px 3px #03045E;
+    margin-top: 2rem;
+    
+    
+}
+
+#footer{
+    color: white;
+    
+}
+section{ 
+    padding-right: 10em;
+}
+
+#last-updated, #updated {
+    color: yellow;
+}
