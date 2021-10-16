@@ -1,0 +1,53 @@
+@media only screen and (min-width: 37.5em){
+    main{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        grid-template-rows: 1fr, 0.5fr 0.5f;
+        padding: 0.5em;
+        grid-gap: 2em;
+        box-sizing: border-box;    
+    }
+
+
+}
+
+body{ background-color: black;
+    height: 100px;
+    max-width: 980px;
+    margin: 0 auto;
+    font-family: 'Raleway', sans-serif;
+    
+
+}
+main div,div header,footer{
+    width: 100%;
+    background-color:blanchedalmond;
+    padding: .75rem;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(70, 69, 69, 0.2);
+    text-align: center;
+    margin-left: center;
+    border: 1px solid #0077B6;
+    padding: 10px;
+    box-shadow: 3px 3px 3px #03045E;
+    
+}
+
+    main div img {
+        width: 95%;
+
+    }
+   
+    footer,
+header{
+    background-color: blanchedalmond;
+      
+    
+    
+}
+#last-updated, #updated {
+    color: blue
+}
+
+    
+   
