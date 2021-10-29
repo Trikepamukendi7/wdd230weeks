@@ -1,0 +1,161 @@
+
+h1,h2,nav, main {
+    font-family: 'Raleway', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+}
+body {
+	background-color: #bed;
+	padding: 0;
+	margin: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+	background-color: skyblue;
+	padding: 5px 0;
+	display: flex;
+	align-items:center;
+	justify-content:center;
+}
+
+
+header img {
+	width: 80px;
+	height: auto;
+}
+
+.headings {
+	display: flex;
+	flex-direction: column;
+}
+
+.headings h1 {
+	font-size: 1.6rem;
+	margin: 0 0 0 17px;
+}
+
+.m {
+	font-style: italic;
+	letter-spacing: 1pt;
+	color: blue;
+	margin-left: 20px;
+	font-size: .9rem;
+}
+
+header,
+nav,
+main,
+footer {
+	max-width: 900px;
+	margin: 0 auto;
+  
+}
+
+nav {
+	background-color: #36454f;
+	text-align: center;
+	box-shadow: 0 2px 15px gray;
+}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+nav ul li a, .active {
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 0.75rem;
+	text-decoration: none;
+	font-size: 0.95rem;
+	background: linear-gradient(90deg, transparent, yellow, transparent) top / var(--d, 0) 10px no-repeat;
+  transition: 0.5s;
+}
+
+.active {
+    color:yellow;
+  }
+
+  .contentbox{
+    display:block;
+    margin: 10px;
+    background-color: rgb(192, 191, 204);
+    padding:0.50rem;
+    text-align: left;
+    border: 1px solid black;
+    padding: 10px;
+    box-shadow: 0 2px 15px gray;
+    border-radius: 5px;
+}
+#contentbox1{
+    display:block;
+    margin: 10px;
+    background-color: rgb(192, 191, 204);
+    padding:0.50rem;
+    text-align: left;
+    border: 1px solid black;
+    padding: 10px;
+    box-shadow: 0 2px 15px gray;
+    border-radius: 5px;
+}
+.contentbox2{
+    display:block;
+    margin: 10px;
+    background-color: rgb(192, 191, 204);
+    padding:0.50rem;
+    text-align: left;
+    border: 1px solid black;
+    padding: 10px;
+    box-shadow: 0 2px 15px gray;
+    border-radius: 5px;
+}
+.contentbox3{
+    display:block;
+    margin: 10px;
+    background-color: rgb(192, 191, 204);
+    padding:0.50rem;
+    text-align: left;
+    border: 1px solid black;
+    padding: 10px;
+    box-shadow: 0 2px 15px gray;
+    border-radius: 5px;
+}
+
+
+
+
+h2{
+    text-align: center;
+}
+ 
+
+
+
+	
+footer {
+    color: white;
+    background-color: #36454f;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 1px;
+    padding-bottom: 1px;
+  
+  }
+
+  #footer{
+    color: white;
+      
+}
+section{ 
+    padding-right: 10em;
+    
+}
+
+#last-updated, #updated {
+    color: yellow;
+}
+
+
+
