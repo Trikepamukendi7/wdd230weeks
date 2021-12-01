@@ -171,26 +171,26 @@ nav ul li a, .active {
 
 .sunnydays{position: relative;
 }
-
-
-
-.good img{width: 400px;
-    height: auto;
-    top: 70rem;
-    position: absolute;
-    margin-left: 500px;
+.pic img{width: 400px;
 }
 
-.good p{width: 450px;
+.pic{
+    width: 30%;
     height: auto;
-    top: 70rem;
-    position: absolute;
-    margin-right: 400px;
-    padding-top: 0px;
-    padding-right: 0%;
+    float: left;
+    padding: 10px;
+
+}
+
+.texte{
+    float: left;
+    padding: 10px;
+    width: 60%;
+
 }
 
 .herodiv {margin: 10px auto; position: relative;}
+
 h1, p {margin: 30;
 text-align:center;}
 
