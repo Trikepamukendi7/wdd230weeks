@@ -88,7 +88,7 @@ nav ul li a, .active {
     grid-template-rows: 1fr 1fr 1fr;
     max-width: 900px;
     height:680px;
-    grid-gap: 1rem;
+    grid-gap: 0.5rem;
     text-align: center;
 }
 
