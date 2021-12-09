@@ -1,0 +1,295 @@
+
+h1,h2,nav, main {
+    font-family: 'Raleway', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+}
+body {
+	background-color: #bed;
+	padding: 0;
+	margin: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+	background-color: skyblue;
+	padding: 5px 0;
+	display: flex;
+	align-items:center;
+	justify-content:center;
+}
+
+
+header img  {
+	width: 80px;
+	height: auto;
+}
+
+.headings  {
+	display: flex;
+	flex-direction: column;
+}
+
+.headings h1 {
+	font-size: 1.6rem;
+	margin: 0 0 0 17px;
+}
+
+.m {
+	font-style: italic;
+	letter-spacing: 1pt;
+	color: blue;
+	margin-left: 20px;
+	font-size: .9rem;
+}
+
+header,
+nav,
+main
+ {
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+footer{
+    max-width: 100%;
+	margin: 0 auto;  
+}
+
+nav {
+	background-color: #36454f;
+	text-align: center;
+	box-shadow: 0 2px 15px gray;
+}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+nav ul li a, .active {
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 0.75rem;
+	text-decoration: none;
+	font-size: 0.95rem;
+    transition: 0.5s;
+}
+
+.active {
+    color:yellow;
+  }
+
+  .content{
+    display:grid;
+    margin: 10px;
+    background-color: rgb(192, 191, 204);
+    padding:0.50rem;
+    text-align: left;
+    grid-template-columns: 1fr 1fr  1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    max-width: 900px;
+    height:680px;
+    grid-gap: 0.5rem;
+    text-align: center;
+    
+}
+
+
+.soda-springs{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.fish-haven{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.preston{
+    grid-column: 3/4;
+    grid-row: 1/2;
+    max-width: 100%;
+    max-height: 100%;
+    
+    
+}
+
+.soda-img{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.fish-img{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.preston-img{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.content p{
+    text-align: center;
+    max-width: 100%;
+    font-size: 1.5rem;
+}
+
+.content img{
+    max-width: 100%;
+    height: 100%;
+}
+
+.bannerbox{
+    grid-column: 1/4;
+    grid-row: 3/5;
+    max-width: 100%;
+    max-height: 500px;
+}
+
+
+
+.grid_Weather img{
+    width: 100px;
+    height: auto;
+    
+}
+    
+
+.Weather h2{
+    text-align: left;
+}
+ 
+.sunny{ 
+    margin: 10px auto;
+    width: 900px;
+    height: auto; 
+     
+}
+ 
+
+.sunnydays{position: relative;
+}
+
+
+
+.good img {
+    width: 100%px;
+    height: 100px;
+    top: auto;
+    position:absolute;
+    right:30px; 
+    
+}
+
+
+.text p{
+    width: 300px;
+    height: 200px;
+    padding-left: 0%; 
+    margin-left: 0%;
+    position: relative;
+    text-align: justify;
+    
+}
+
+.herodiv {margin: 10px auto; position: relative;}
+h1, p {
+    margin: 30;
+text-align:center;}
+
+p {margin: 10px;
+    text-align: left;
+}
+
+.stats {
+	position: absolute;
+	top: 60px;
+	left: 50px;
+	background: radial-gradient(#eee, #4567aa);
+	border: 1px solid #000;
+	padding: 2rem;
+	box-shadow: 0 0 30px #333;
+	opacity: .8;
+}
+
+
+.herodiv img{
+    width: 100%;
+    height: auto;
+    box-shadow: 0 2px 15px gray;
+}
+
+.up {
+    display:grid;
+    grid-template-columns: 1fr  1fr;
+    grid-template-rows: 1f 1f;
+    background-color: #6D99C9;
+    padding:0.50rem;
+    box-shadow: 0 2px 15px gray;
+    max-width: 900px;
+    max-height: auto;
+    
+    height: 278px;
+    max-width:  900px;   
+}
+.up img{
+    grid-column: 1/2;
+    width: 100%;
+    height: auto;  
+    border: 1px solid black;
+    
+}
+	
+.text  {
+    grid-column: 2/3;
+    width: 100%;
+    height: auto;
+    padding:0px;
+    text-align: center;
+    font-size: 1.5rem;
+    color:blue;
+}
+.text h1{
+    text-align: justify;
+}
+
+footer p {
+    color: white;
+    background-color: #36454f;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 2px;
+    padding-bottom: 2px;
+  
+  }
+
+  #footer{
+    color: white;
+      
+}
+section{ 
+    padding-right: 10em;
+    
+}
+
+#last-updated, #updated {
+    color: yellow;
+}
+
+
+/*-----------home page---------------------
+
+

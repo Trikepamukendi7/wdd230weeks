@@ -1,0 +1,46 @@
+
+
+a:hover {
+    color:skyblue;
+    transition: 0.5s;
+}
+
+.cities img {
+    max-width: 400px;
+    margin: 10px auto;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px gainsboro;
+}
+
+
+
+footer p {
+    color: white;
+    background-color: #36454f;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 2px;
+    padding-bottom: 2px;
+  
+  }
+
+  #footer{
+    color: white;
+      
+}
+section{ 
+    padding-right: 10em;
+    
+}
+
+#last-updated, #updated {
+    color: yellow;
+}
+.cities img[data-src] {
+    filter: blur(.2em);
+}
+
+.cities img {
+    filter: blur(0em);
+    transition: filter 1s;
+}
