@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My site</title>
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/normalize.css">
+
+</head>
+
+<body>
+    <div id="content">
+        <header>
+            <h1>THE CHAMBER OF COMMERCE AND INDUSTRY OF BUCHAREST</h1>
+            <div class="logo-box">
+                <img src="images/logo.jpg" alt="Russia Study Express" />
+            </div>
+
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="city.html"> City</a></li>
+                    <li><a href="join.html">Join</a></li>
+                    <li><a href="directory.html">directory</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+<main>
+
+    <div class="action">
+        <h1>Upcoming Events</h1>
+
+        <p> Events:April 1<br>
+
+            Curtea de arbitraj commercial Bucaresti
+                    May 15-30<br>
+                   Noi iti eliberam 
+                    July 24 <br>
+                    Topul firmelor din buuresti
+                    December 12 <br>
+                    <br>
+        </p>
+        <button>
+            join us now!!!
+        </button>
+    </div>
+
+        
+    <h2>Application form</h2>
+    <form method="get" action="thanks.html">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label class="top">First Name*<input type="text" name="firstname" required></label>
+            <label class="top">Last Name*<input type="text" name="lastname" required></label>
+            <label class="top">Title:<input type="text" name="title" required></label>
+            <label class="top">Email<input type="email" name="email"
+            placeholder="youremail@gmail.com" ></label>
+            <label class="top">Phone Number*<input type="tel" name="phone" required></label>
+        </fieldset>
+
+
+        <fieldset>
+            <legend>Select Membership</legend>
+            <label class="top"> <select name="region">
+                <option value="" disabled selected>Select Membership. Higher tiers include lower tier perks</option>
+                <option value="preston">Non-Prfit($100) director listings</option>
+                <option value="soda-springs">Bronze($200) social media posts</option>
+                <option value="fish-haven">Silver($400) business trainigs</option>
+                <option value="preston">Gold($1000) sponsorhips with levels of advertising</option>
+                
+
+            </select> 
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Business Info</legend>
+            <label class="top">Business Name*<input type="text" name="Businessname" required></label>
+            <label class="top">Business Adress<input type="text" name="Businessadress" required></label>
+            <label class="top">Business Name*<input type="url" name="Businesswebsite"placeholder="businessemail@gmail.com" ></label>
+            <label class="top" for="additional">Additional Information:</label>
+            <textarea id="additional" name="additional" rows="4" cols="40">
+
+
+            </textarea>
+
+    </fieldset>
+
+        <input class="submitBtn" type="submit" value="submit">
+
+
+        
+
+        
+
+            <div class="up">
+                <img src="images/map.jpg">
+
+
+                <div class="adress">
+                    <h3>Weather site</h3>
+                    <p> Preston ID:03286<br>
+                        &#9742;Fix:+1 95602534</p>
+                    <img src="images/social-media-g41857dff5_640.png">
+                </div>
+
+            </div>
+
+
+
+    </div>
+
+
+    </main>
+
+    <footer>
+        <div class="footer">
+            <p>
+                &copy;<span id="copyrightyear"></span> 2021 | Patrick K. Mukendi| Bucharest | BYU Online
+                Leaning <a id="footer" href="https://www.byui.edu/"> BYU-I Online
+                    Learning </a> <br><span id="last-updated">Last Updated: <span id="currentdate"></span>
+                    <span id="currentdate"></span>
+            </p>
+        </div>
+
+        <footer>
+
+            <script src="js/preston.js"></script>
+
+            <script src="js/menu.js"></script>
+
+
+        </footer>
+
+        <script src="js/preston.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/currentWeather.js"></script>
+    <script src="js/5dayforcast.js"></script>
+</body>
+
+</html>
+
