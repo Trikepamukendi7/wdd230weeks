@@ -45,6 +45,7 @@ margin-left: 310px;
 align-content: center;
 border-radius: 10px 10px 10px 10px;
 box-shadow: 0 2px 10px blue;
+width: 50%;
 
 }
 a:hover {
@@ -443,16 +444,7 @@ section {
 
 }
 
-
-
-
-
-
-
-
-
-
-
+/*======form==========*/
 
 form fieldset {
     display: grid;
@@ -647,9 +639,6 @@ form label.top input:required:valid{
 }
 
 
-
-
-
 .direct5{
     grid-column:1;
     grid-row: 5/6;
@@ -774,7 +763,45 @@ form label.top input:required:valid{
     width: 100%;
 }
 
+/*======================phone view=================*/
 
+
+#content{
+ 
+  width: 100%;
+  }
+  
+  .hero-image{
+      width: 100%;
+  
+  }
+  
+  .logo-box{
+      
+      width: 50%;
+
+     
+  
+  }
+  .stats{
+      display: none;
+  }
+  
+  main,header,footer{
+      width: 100%;
+  }
+    
+  .weather{
+    
+  
+      width: 100%;
+  }
+  .action p h1{
+      display: block;
+      width:30px;
+      padding:  30px 30px 20px;
+      font-size: 50px;
+  }
 
 
 
